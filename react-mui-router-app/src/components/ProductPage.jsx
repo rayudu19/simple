@@ -1,4 +1,3 @@
-// src/components/ProductPage.js
 import React, { useState, useEffect } from 'react';
 import { Box, Typography, Grid, Card, CardContent, CardMedia, Button } from '@mui/material';
 
@@ -6,7 +5,7 @@ const ProductPage = () => {
   const [products, setProducts] = useState([]);
   
   useEffect(() => {
-    // Simulating a fetch call to get product data
+
     const fetchedProducts = [
       { id: 1, name: 'Product 1', description: 'This is product 1', imageUrl: 'https://via.placeholder.com/150' },
       { id: 2, name: 'Product 2', description: 'This is product 2', imageUrl: 'https://via.placeholder.com/150' },
